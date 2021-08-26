@@ -1,6 +1,6 @@
 # MOANero
 
-MOANero is an open source, self-hosted digital content subscription platform like `onlyfans.com`. The difference, however, is that it uses cryptocurrency (ETH) for payment, so the content will no longer be judged by the payment platform and credit card companies.
+MOANero is an open source, self-hosted digital content subscription platform like `onlyfans.com`. The difference, however, is that it uses cryptocurrency (XMR) Monero for payment, so the content will no longer be judged by the payment platform and credit card companies or by anyone for that matter.
 
 [简体中文](README.cn.md)
 
@@ -64,8 +64,8 @@ First we need to prepare a server with `docker` and `docker-compose` already ins
 ### Clone the code and start Docker
 
 ```bash
-git clone https://gitlab.com/easychen/not-only-fans.git
-cd not-only-fans
+git clone https://gitlab.com/meramsey/MOANero.git
+cd MOANero
 docker-compose up -d --build
 ```
 
@@ -77,7 +77,7 @@ Start by looking at the running Docker container.
 docker ps
 ```
 
-Record the container ID of the image as `not-only-fans_app` (CID for short), and then go inside the container.
+Record the container ID of the image as `MOANero_app` (CID for short), and then go inside the container.
 
 ```bash
 docker exec -it ${container_id} /bin/bash

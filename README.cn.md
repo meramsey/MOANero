@@ -62,8 +62,8 @@ MOANero 是一个开源的、可以自己架设的类似 `onlyfans.com` 的数�
 ### 克隆代码并启动Docker
 
 ```bash
-git clone https://gitlab.com/easychen/not-only-fans.git
-cd not-only-fans
+git clone https://gitlab.com/meramsey/MOANero.git
+cd MOANero
 docker-compose up -d  --build
 ```
 
@@ -75,7 +75,7 @@ docker-compose up -d  --build
 docker ps
 ```
 
-把镜像为 `not-only-fans_app` 的容器ID记录下来（简称CID），然后进入容器内部。
+把镜像为 `MOANero_app` 的容器ID记录下来（简称CID），然后进入容器内部。
 
 ```bash
 docker exec -it ${container_id} /bin/bash
