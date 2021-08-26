@@ -1,6 +1,6 @@
-# NotOnlyFans
+# MOANero
 
-NotOnlyFans 是一个开源的、可以自己架设的类似 `onlyfans.com` 的数字内容订阅平台。但不同的是，它采用加密货币(ETH)进行支付，因此内容不会再由支付平台和信用卡公司来决定。
+MOANero 是一个开源的、可以自己架设的类似 `onlyfans.com` 的数字内容订阅平台。但不同的是，它采用加密货币(ETH)进行支付，因此内容不会再由支付平台和信用卡公司来决定。
 
 ## 截图
 
@@ -51,7 +51,7 @@ NotOnlyFans 是一个开源的、可以自己架设的类似 `onlyfans.com` 的�
 
 <!-- ## 在线演示网站
 
-- <http://notonlyfans.vip/> -->
+- <http://moanero.vip/> -->
 
 ## Self-hosted
 
@@ -97,8 +97,8 @@ cd /app/api/ && composer install && mkdir /app/api/storage && chmod -R 0777 /app
 
 此镜像采用了不同的域名指向不同的目录，可以在本地host中将一下两个域名指向服务器的IP（即之前的SIP）。
 
-1. `notonlyfans.vip` → SIP （前端域名）
-1. `api.notonlyfans.vip` → SIP （API域名）
+1. `moanero.vip` → SIP （前端域名）
+1. `api.moanero.vip` → SIP （API域名）
 
 此时访问即可进行测试。
 

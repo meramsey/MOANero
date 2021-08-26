@@ -1,6 +1,6 @@
-# NotOnlyFans
+# MOANero
 
-NotOnlyFans is an open source, self-hosted digital content subscription platform like `onlyfans.com`. The difference, however, is that it uses cryptocurrency (ETH) for payment, so the content will no longer be judged by the payment platform and credit card companies.
+MOANero is an open source, self-hosted digital content subscription platform like `onlyfans.com`. The difference, however, is that it uses cryptocurrency (ETH) for payment, so the content will no longer be judged by the payment platform and credit card companies.
 
 [简体中文](README.cn.md)
 
@@ -53,7 +53,7 @@ NotOnlyFans is an open source, self-hosted digital content subscription platform
 
 <!-- ## Online demo site
 
-- <http://notonlyfans.vip/> -->
+- <http://moanero.vip/> -->
 
 ## Self-hosted
 
@@ -99,8 +99,8 @@ cd /app/api/ && composer install && mkdir /app/api/storage && chmod -R 0777 /app
 
 This image uses different domains to point to different directories, you can point the following two domains to the server IP (i.e. SIP before) in localhost.
 
-1. `notonlyfans.vip` → SIP (front-end domain)
-1. `api.notonlyfans.vip` → SIP (API domain name)
+1. `moanero.vip` → SIP (front-end domain)
+1. `api.moanero.vip` → SIP (API domain name)
 
 Access at this point is ready for testing.
 
